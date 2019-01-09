@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="../assets/css/foundation.css">
-<link rel="stylesheet" href="../assets/css/header.css">
+<link rel="stylesheet" href="/minimo/assets/css/app.css">
+<link rel="stylesheet" href="/minimo/assets/css/foundation.css">
 
-<div class="header">
+<div>
     <div class="logo">
-        <img src="../assets/images/logo_minimo.png" />
+        <img src="/minimo/assets/images/logo_minimo.png" />
     </div>
     <div>
         <ul class="menu align-right">

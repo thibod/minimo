@@ -1,17 +1,20 @@
-<link rel="stylesheet" href="../assets/css/foundation.css">
-<link rel="stylesheet" href="../assets/css/footer.css">
-
+<link rel="stylesheet" href="/minimo/assets/css/app.css">
+<link rel="stylesheet" href="/minimo/assets/css/foundation.css">
 
 <div class="footer">
-    <ul class="menu align-left">
-        <li>Terms & conditions</li>
-        <li>Contact</li>
-    </ul>
+    <div class="legal">
+        <ul class="menu align-left">
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
 
-    <ul class="menu align-right">
-        <li>Follow</li>
-        <li><img src="" alt="picto fb" /></li>
-        <li><img src="" alt="picto twitter" /></li>
-        <li><img src="" alt="picto insta" /></li>
-    </ul>
+    <div class="social">
+        <ul class="menu align-right">
+            <li><a>Follow</a></li>
+            <li><a href=""><img src="/minimo/assets/images/facebook_picto.png" alt="picto facebook" /></a></li>
+            <li><a href=""><img src="/minimo/assets/images/twitter_picto.png" alt="picto twitter" /></a></li>
+            <li><a href=""><img src="/minimo/assets/images/instagram_picto.png" alt="picto insta" /></a></li>
+        </ul>
+    </div>
 </div>

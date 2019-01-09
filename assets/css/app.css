@@ -1,0 +1,18 @@
+.header .logo {
+    float: left;
+}
+
+.header li {
+    text-transform: uppercase;
+}
+/* ////////////////////////////////////  */
+
+.footer .legal {
+    float: left;
+}
+
+
+/* ///////////////////////////////////// */
+.homeheader {
+    margin: 20px 20px
+}
