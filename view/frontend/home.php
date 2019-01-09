@@ -24,11 +24,13 @@
     <div class="miniature grid-x">
         <div class="cell small-6">
             <img src="/minimo/assets/images/02_festival.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
         <div class="cell small-6">
             <img src="/minimo/assets/images/03_caffee.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
@@ -37,11 +39,13 @@
     <div class="miniature grid-x">
         <div class="cell small-6">
             <img src="/minimo/assets/images/04_pont.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
         <div class="cell small-6">
             <img src="/minimo/assets/images/05_montagnes.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
@@ -57,11 +61,13 @@
     <div class="miniature grid-x">
         <div class="cell small-6">
             <img src="/minimo/assets/images/06_girl.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
         <div class="cell small-6">
             <img src="/minimo/assets/images/07_route_glace.png" alt="miniature article" />
+            <p>CATEGORIE</p>
             <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
             blablablabla blablablabla blablablabla blablablabla blablablabla</p>
         </div>
