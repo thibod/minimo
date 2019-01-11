@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/minimo/assets/css/app.css">
 <link rel="stylesheet" href="/minimo/assets/css/foundation.css">
 
 <div class="header">

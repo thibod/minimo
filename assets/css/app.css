@@ -1,16 +1,47 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'PlayFairDisplay';
+    src: local('/minimo/assets/fonts/playfair_display/PlayFairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('/minimo/assets/fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Header */
+
 .header .logo {
     float: left;
 }
 
-.header li a{
+.header a {
     text-transform: uppercase;
     color: black;
+    font-family: 'Ubuntu';
+    font-size: 20px;
 }
+
+.header li {
+    padding-left: 10%;
+}
+/* 
+@media only screen and (max-width: 700px){
+.header li {
+    padding-left: 2%;
+}
+} */
 
 .header {
     margin-top: 50px;
 }
+
 /* ////////////////////////////////////  */
+
+/* Footer */
 
 .footer{
     background-color: #f0f0f0;
@@ -23,7 +54,10 @@
 .footer .social .menu-text {
     padding-top: 0;
 }
+
 /* ///////////////////////////////////// */
+
+/* Homepage */
 
 .mainimage {
     width: 100%;
@@ -40,11 +74,39 @@
 .featured p {
     margin-bottom: 50px;
 }
+.featured a {
+    color: #626262;
+}
+
 .miniature {
     margin-bottom: 50px;
+}
+.miniature a {
+    color: #626262;
+}
+.miniature img {
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .newsletter{
     padding : 100px;
     background-color: #f0f0f0;
+}
+
+.welcome h1 {
+    color: #626262;
+    font-family: 'PlayFairDisplay', serif;
+}
+.welcome p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#loadmore {
+    display: block;
+    margin: auto;
+}
+
+.grid-container {
+    max-width: 50%;
 }

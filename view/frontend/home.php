@@ -3,6 +3,7 @@
 <head>
     <title>Minimo | Accueil</title>
     <link rel="stylesheet" href="/minimo/assets/css/foundation.css">
+    <link rel="stylesheet" href="/minimo/assets/css/app.css">
 </head>
 <body class="grid-container fluid">
 
@@ -11,7 +12,7 @@
         <img class="mainimage" src="/minimo/assets/images/01_image_principale.png" alt="image article">
     </div>
 
-    <div class="grid-container">
+    <div class="grid-container welcome">
         <div class="featured">
             <a>CATEGORIE DE L'ARTICLE</a>
             <h1>Titre de l'article</h1>
@@ -28,12 +29,14 @@
             <div class="cell small-6">
                 <img src="/minimo/assets/images/02_festival.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
             <div class="cell small-6">
                 <img src="/minimo/assets/images/03_caffee.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
@@ -43,12 +46,14 @@
             <div class="cell small-6">
                 <img src="/minimo/assets/images/04_pont.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
             <div class="cell small-6">
                 <img src="/minimo/assets/images/05_montagnes.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
@@ -66,18 +71,21 @@
             <div class="cell small-6">
                 <img src="/minimo/assets/images/06_girl.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
             <div class="cell small-6">
                 <img src="/minimo/assets/images/07_route_glace.png" alt="miniature article" /> <br/>
                 <a>CATEGORIE</a>
+                <h1>Titre de l'article</h1>
                 <p>blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla blablablabla
                 blablablabla blablablabla blablablabla blablablabla blablablabla</p>
             </div>
         </div>
     </div>
-    <input type="button" name="loadmore" value="Load more" /> <!-- requête AJAX -->
+
+    <button id="loadmore" class="hollow button large secondary" href="#">Load More</button> <!-- requête AJAX -->
 
     <?php include "../footer.php" ?>
 
